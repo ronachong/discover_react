@@ -4,8 +4,8 @@ const Product = (props) => (
   <div>
     <h3>{props.name}</h3>
     <img src={props.imageUrl} />
-    <p>{props.quantityAvailable}</p>
-    <p>{props.price]</p>
+    <p>Quantity available: {props.quantityAvailable}</p>
+    <p>Price: {props.price]</p>
     <p>Buy one</p>
   </div>
 );
